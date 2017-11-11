@@ -12,4 +12,4 @@ for n in nums:
     else:
         flag += chr(n + ord('a') - 1)
 
-print(flag)
+print flag

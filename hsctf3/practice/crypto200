@@ -13,4 +13,4 @@ for x in nums.split(' '):
     else:
         flag += chr(n + ord('a') - 1)
 
-print(flag)
+print flag

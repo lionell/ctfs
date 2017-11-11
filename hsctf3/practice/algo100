@@ -9,4 +9,4 @@ nums = [1]
 for i in xrange(1, 50):
     nums.append(int(str(nums[i - 1]) + str(fibs[i])))
 
-print(sum(nums))
+print sum(nums)
