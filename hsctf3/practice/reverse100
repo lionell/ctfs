@@ -1,0 +1,10 @@
+#!/usr/bin/env python2
+
+enc = 'djckktjbq'
+
+plus = (1, 7, 5, 3, 5, 4, 2, 6, 3)
+minus = (4, 3, 5, 6, 1, 2, 3, 3, 1)
+
+add = [plus[i] - minus[i] for i in xrange(9)]
+res = [chr(ord(enc[i]) + add[i]) for i in xrange(9)]
+print ''.join(res)
