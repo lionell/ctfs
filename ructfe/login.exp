@@ -1,0 +1,5 @@
+#!/usr/bin/env expect 
+spawn ssh -p19922 dcua@213.110.135.71
+expect "*password:"
+send "Y5jV1qhEpDMagvrjh\n"
+interact
